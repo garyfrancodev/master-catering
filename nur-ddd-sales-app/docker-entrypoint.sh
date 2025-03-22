@@ -10,6 +10,8 @@ chown -R www-data:www-data /var/www/html
 chmod -R 775 /var/www/html/storage
 chmod -R 775 /var/www/html/bootstrap/cache
 
+/usr/bin/composer install --prefer-dist
+
 php artisan migrate
 
 echo "Starting PHP-FPM..."
