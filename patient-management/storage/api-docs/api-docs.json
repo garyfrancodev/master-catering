@@ -1,0 +1,686 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "My First API",
+        "version": "0.1"
+    },
+    "paths": {
+        "/api/v1/appointment": {
+            "post": {
+                "tags": [
+                    "Appointments"
+                ],
+                "summary": "Create a new appointment",
+                "description": "Handles the creation of a new appointment.",
+                "operationId": "2157315882445629255bdd9b2461ce66",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "user_id"
+                                ],
+                                "properties": {
+                                    "patient_id": {
+                                        "description": "The user ID associated with the patient.",
+                                        "type": "string",
+                                        "example": "faeac40d-a9c0-4c4a-aa6b-ebb210afb589"
+                                    },
+                                    "nutritionist_id": {
+                                        "type": "string",
+                                        "format": "string",
+                                        "example": "12345"
+                                    },
+                                    "reason": {
+                                        "type": "string",
+                                        "enum": [
+                                            "catering",
+                                            "nutritional_advice"
+                                        ],
+                                        "example": "catering"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "PatientModel created successfully",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "user_id": {
+                                            "type": "string",
+                                            "example": "12345"
+                                        },
+                                        "full_name": {
+                                            "properties": {
+                                                "first_name": {
+                                                    "type": "string",
+                                                    "example": "John"
+                                                },
+                                                "last_name": {
+                                                    "type": "string",
+                                                    "example": "Doe"
+                                                }
+                                            },
+                                            "type": "object"
+                                        },
+                                        "email": {
+                                            "type": "string",
+                                            "format": "email",
+                                            "example": "john.doe@example.com"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid input data"
+                    }
+                }
+            }
+        },
+        "/api/v1/appointment/{id}": {
+            "delete": {
+                "tags": [
+                    "Appointments"
+                ],
+                "summary": "Create a new appointment",
+                "description": "Handles the creation of a new appointment.",
+                "operationId": "16ad5d8e07a3694c82adce1e9e24d575",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "ID del appointment",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "PatientModel created successfully",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "user_id": {
+                                            "type": "string",
+                                            "example": "12345"
+                                        },
+                                        "full_name": {
+                                            "properties": {
+                                                "first_name": {
+                                                    "type": "string",
+                                                    "example": "John"
+                                                },
+                                                "last_name": {
+                                                    "type": "string",
+                                                    "example": "Doe"
+                                                }
+                                            },
+                                            "type": "object"
+                                        },
+                                        "email": {
+                                            "type": "string",
+                                            "format": "email",
+                                            "example": "john.doe@example.com"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid input data"
+                    }
+                }
+            }
+        },
+        "/api/v1/patient": {
+            "post": {
+                "tags": [
+                    "Patients"
+                ],
+                "summary": "Create a new patient",
+                "description": "Handles the creation of a new patient.",
+                "operationId": "cdcfa3cbe41a5fbd8f6abbd9f06f710a",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "user_id"
+                                ],
+                                "properties": {
+                                    "user_id": {
+                                        "description": "The user ID associated with the patient.",
+                                        "type": "string",
+                                        "example": "12345"
+                                    },
+                                    "full_name": {
+                                        "properties": {
+                                            "first_name": {
+                                                "type": "string",
+                                                "example": "John"
+                                            },
+                                            "last_name": {
+                                                "type": "string",
+                                                "example": "Doe"
+                                            }
+                                        },
+                                        "type": "object"
+                                    },
+                                    "email": {
+                                        "type": "string",
+                                        "format": "email",
+                                        "example": "john.doe@example.com"
+                                    },
+                                    "dni": {
+                                        "type": "string",
+                                        "example": "A123456789"
+                                    },
+                                    "phone": {
+                                        "type": "string",
+                                        "example": "123456789"
+                                    },
+                                    "dob": {
+                                        "type": "string",
+                                        "format": "date",
+                                        "example": "2000-05-15"
+                                    },
+                                    "gender": {
+                                        "type": "string",
+                                        "enum": [
+                                            "male",
+                                            "female",
+                                            "other"
+                                        ],
+                                        "example": "male"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "PatientModel created successfully",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "user_id": {
+                                            "type": "string",
+                                            "example": "12345"
+                                        },
+                                        "full_name": {
+                                            "properties": {
+                                                "first_name": {
+                                                    "type": "string",
+                                                    "example": "John"
+                                                },
+                                                "last_name": {
+                                                    "type": "string",
+                                                    "example": "Doe"
+                                                }
+                                            },
+                                            "type": "object"
+                                        },
+                                        "email": {
+                                            "type": "string",
+                                            "format": "email",
+                                            "example": "john.doe@example.com"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid input data"
+                    }
+                }
+            }
+        },
+        "/api/patient": {
+            "get": {
+                "tags": [
+                    "Patients"
+                ],
+                "summary": "Obtiene todos los pacientes registrados.",
+                "description": "Retorna una lista de pacientes.",
+                "operationId": "getAllPatients",
+                "responses": {
+                    "200": {
+                        "description": "Lista de pacientes obtenida exitosamente.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "properties": {
+                                            "id": {
+                                                "type": "string",
+                                                "example": "1"
+                                            },
+                                            "fullName": {
+                                                "type": "string",
+                                                "example": "Juan Pérez"
+                                            },
+                                            "email": {
+                                                "type": "string",
+                                                "example": "juan.perez@email.com"
+                                            },
+                                            "phone": {
+                                                "type": "string",
+                                                "example": "+1234567890"
+                                            },
+                                            "dob": {
+                                                "type": "string",
+                                                "format": "date",
+                                                "example": "1990-01-01"
+                                            },
+                                            "gender": {
+                                                "type": "string",
+                                                "example": "male"
+                                            },
+                                            "dni": {
+                                                "type": "string",
+                                                "example": "12345678"
+                                            },
+                                            "userId": {
+                                                "type": "string",
+                                                "example": "user_123"
+                                            }
+                                        },
+                                        "type": "object"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Solicitud incorrecta"
+                    },
+                    "500": {
+                        "description": "Error en el servidor"
+                    }
+                }
+            }
+        },
+        "/api/v1/patient/{id}/address": {
+            "post": {
+                "tags": [
+                    "Patients"
+                ],
+                "summary": "Create a new address for patient",
+                "description": "Handles the creation of a new address.",
+                "operationId": "8fe7ae153494d9ede3c1a7b8fee7a030",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "ID del paciente",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "address": {
+                                        "properties": {
+                                            "street": {
+                                                "type": "string",
+                                                "example": "Plan 3000"
+                                            },
+                                            "city": {
+                                                "type": "string",
+                                                "example": "Santa Cruz"
+                                            },
+                                            "postal_code": {
+                                                "type": "string",
+                                                "example": "591"
+                                            }
+                                        },
+                                        "type": "object"
+                                    },
+                                    "gps": {
+                                        "properties": {
+                                            "latitude": {
+                                                "type": "number",
+                                                "example": "40.753"
+                                            },
+                                            "longitude": {
+                                                "type": "number",
+                                                "example": "-73.983"
+                                            }
+                                        },
+                                        "type": "object"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "PatientModel AddressModel created successfully",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "user_id": {
+                                            "type": "string",
+                                            "example": "12345"
+                                        },
+                                        "full_name": {
+                                            "properties": {
+                                                "first_name": {
+                                                    "type": "string",
+                                                    "example": "John"
+                                                },
+                                                "last_name": {
+                                                    "type": "string",
+                                                    "example": "Doe"
+                                                }
+                                            },
+                                            "type": "object"
+                                        },
+                                        "email": {
+                                            "type": "string",
+                                            "format": "email",
+                                            "example": "john.doe@example.com"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid input data"
+                    }
+                }
+            }
+        },
+        "/api/v1/patient/{id}/dietaryPreference": {
+            "post": {
+                "tags": [
+                    "Patients"
+                ],
+                "summary": "Create a new address for patient",
+                "description": "Handles the creation of a new address.",
+                "operationId": "04c093522ad8ab1bfa91072ab7ea215a",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "ID del paciente",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "preference": {
+                                        "type": "string",
+                                        "example": "lacteos"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "PatientModel AddressModel created successfully",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "user_id": {
+                                            "type": "string",
+                                            "example": "12345"
+                                        },
+                                        "full_name": {
+                                            "properties": {
+                                                "first_name": {
+                                                    "type": "string",
+                                                    "example": "John"
+                                                },
+                                                "last_name": {
+                                                    "type": "string",
+                                                    "example": "Doe"
+                                                }
+                                            },
+                                            "type": "object"
+                                        },
+                                        "email": {
+                                            "type": "string",
+                                            "format": "email",
+                                            "example": "john.doe@example.com"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid input data"
+                    }
+                }
+            }
+        },
+        "/api/v1/patient/{id}/measurement": {
+            "post": {
+                "tags": [
+                    "Patients"
+                ],
+                "summary": "Create a new address for patient",
+                "description": "Handles the creation of a new address.",
+                "operationId": "fc1c664d431d260ec25a3867423a862c",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "ID del paciente",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "consultation_id": {
+                                        "type": "string",
+                                        "example": "123456"
+                                    },
+                                    "height": {
+                                        "type": "numeric",
+                                        "example": "40.0"
+                                    },
+                                    "weight": {
+                                        "type": "numeric",
+                                        "example": "30.0"
+                                    },
+                                    "body_fat": {
+                                        "type": "numeric",
+                                        "example": "50.0"
+                                    },
+                                    "notes": {
+                                        "type": "string",
+                                        "example": "this notes"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "PatientModel AddressModel created successfully",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "user_id": {
+                                            "type": "string",
+                                            "example": "12345"
+                                        },
+                                        "full_name": {
+                                            "properties": {
+                                                "first_name": {
+                                                    "type": "string",
+                                                    "example": "John"
+                                                },
+                                                "last_name": {
+                                                    "type": "string",
+                                                    "example": "Doe"
+                                                }
+                                            },
+                                            "type": "object"
+                                        },
+                                        "email": {
+                                            "type": "string",
+                                            "format": "email",
+                                            "example": "john.doe@example.com"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid input data"
+                    }
+                }
+            }
+        },
+        "/api/v1/patient/{id}/ticket": {
+            "post": {
+                "tags": [
+                    "Patients"
+                ],
+                "summary": "Create a new ticket",
+                "description": "Handles the creation of a new address.",
+                "operationId": "7e19449b20c356e965493fd64ec652ad",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "ID del paciente",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "type": {
+                                        "type": "string",
+                                        "example": "support"
+                                    },
+                                    "details": {
+                                        "type": "string",
+                                        "example": "test for ticket"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "PatientModel AddressModel created successfully",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "user_id": {
+                                            "type": "string",
+                                            "example": "12345"
+                                        },
+                                        "full_name": {
+                                            "properties": {
+                                                "first_name": {
+                                                    "type": "string",
+                                                    "example": "John"
+                                                },
+                                                "last_name": {
+                                                    "type": "string",
+                                                    "example": "Doe"
+                                                }
+                                            },
+                                            "type": "object"
+                                        },
+                                        "email": {
+                                            "type": "string",
+                                            "format": "email",
+                                            "example": "john.doe@example.com"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid input data"
+                    }
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Appointments",
+            "description": "Appointments"
+        },
+        {
+            "name": "Patients",
+            "description": "Patients"
+        }
+    ]
+}
