@@ -1,0 +1,598 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13390857-15D0-49FA-8455-9EB9188C16EE}|Web\\Web.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13390857-15D0-49FA-8455-9EB9188C16EE}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13390857-15D0-49FA-8455-9EB9188C16EE}|Web\\Web.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{13390857-15D0-49FA-8455-9EB9188C16EE}|Web\\Web.csproj|solutionrelative:web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13390857-15D0-49FA-8455-9EB9188C16EE}|Web\\Web.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\web\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{13390857-15D0-49FA-8455-9EB9188C16EE}|Web\\Web.csproj|solutionrelative:web\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\Migrations\\20250322060202_CreateDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20250322060202_CreateDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8D7475-1B28-4420-A73D-761001EF5B47}|Infrastructure\\Infrastructure.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\infrastructure\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8D7475-1B28-4420-A73D-761001EF5B47}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8D7475-1B28-4420-A73D-761001EF5B47}|Infrastructure\\Infrastructure.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ED8D7475-1B28-4420-A73D-761001EF5B47}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8D7475-1B28-4420-A73D-761001EF5B47}|Infrastructure\\Infrastructure.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\infrastructure\\domainmodel\\config\\diagnosisconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8D7475-1B28-4420-A73D-761001EF5B47}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\domainmodel\\config\\diagnosisconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8D7475-1B28-4420-A73D-761001EF5B47}|Infrastructure\\Infrastructure.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\infrastructure\\domainmodel\\config\\analysisrequestconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8D7475-1B28-4420-A73D-761001EF5B47}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\domainmodel\\config\\analysisrequestconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\Migrations\\20250322052833_CreateDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20250322052833_CreateDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8D7475-1B28-4420-A73D-761001EF5B47}|Infrastructure\\Infrastructure.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\infrastructure\\storedmodel\\storeddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8D7475-1B28-4420-A73D-761001EF5B47}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\storedmodel\\storeddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13390857-15D0-49FA-8455-9EB9188C16EE}|Web\\Web.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\web\\controllers\\consultationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13390857-15D0-49FA-8455-9EB9188C16EE}|Web\\Web.csproj|solutionrelative:web\\controllers\\consultationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31A20502-5AB7-49D1-85FF-AFFF906C43A0}|Application\\Application.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\application\\usecase\\consultations\\command\\createconsultation\\createconsultationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A20502-5AB7-49D1-85FF-AFFF906C43A0}|Application\\Application.csproj|solutionrelative:application\\usecase\\consultations\\command\\createconsultation\\createconsultationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13390857-15D0-49FA-8455-9EB9188C16EE}|Web\\Web.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\web\\controllers\\nutritionistcontrollerr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13390857-15D0-49FA-8455-9EB9188C16EE}|Web\\Web.csproj|solutionrelative:web\\controllers\\nutritionistcontrollerr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13390857-15D0-49FA-8455-9EB9188C16EE}|Web\\Web.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\web\\controllers\\analysisrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13390857-15D0-49FA-8455-9EB9188C16EE}|Web\\Web.csproj|solutionrelative:web\\controllers\\analysisrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8D7475-1B28-4420-A73D-761001EF5B47}|Infrastructure\\Infrastructure.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\infrastructure\\storedmodel\\entities\\consultationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8D7475-1B28-4420-A73D-761001EF5B47}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\storedmodel\\entities\\consultationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8D7475-1B28-4420-A73D-761001EF5B47}|Infrastructure\\Infrastructure.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\infrastructure\\repositories\\consultationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8D7475-1B28-4420-A73D-761001EF5B47}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\consultationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8D7475-1B28-4420-A73D-761001EF5B47}|Infrastructure\\Infrastructure.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8D7475-1B28-4420-A73D-761001EF5B47}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8D7475-1B28-4420-A73D-761001EF5B47}|Infrastructure\\Infrastructure.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\infrastructure\\domainmodel\\domaindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8D7475-1B28-4420-A73D-761001EF5B47}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\domainmodel\\domaindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8D7475-1B28-4420-A73D-761001EF5B47}|Infrastructure\\Infrastructure.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\infrastructure\\domainmodel\\config\\consultationconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8D7475-1B28-4420-A73D-761001EF5B47}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\domainmodel\\config\\consultationconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8D7475-1B28-4420-A73D-761001EF5B47}|Infrastructure\\Infrastructure.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\infrastructure\\handler\\consultation\\getconsultationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8D7475-1B28-4420-A73D-761001EF5B47}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\handler\\consultation\\getconsultationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31A20502-5AB7-49D1-85FF-AFFF906C43A0}|Application\\Application.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\application\\usecase\\consultations\\queries\\getconsultationquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A20502-5AB7-49D1-85FF-AFFF906C43A0}|Application\\Application.csproj|solutionrelative:application\\usecase\\consultations\\queries\\getconsultationquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31A20502-5AB7-49D1-85FF-AFFF906C43A0}|Application\\Application.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\application\\usecase\\consultations\\command\\createconsultation\\createconsultationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A20502-5AB7-49D1-85FF-AFFF906C43A0}|Application\\Application.csproj|solutionrelative:application\\usecase\\consultations\\command\\createconsultation\\createconsultationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31A20502-5AB7-49D1-85FF-AFFF906C43A0}|Application\\Application.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\application\\eventhandlers\\sendemailanalysisrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A20502-5AB7-49D1-85FF-AFFF906C43A0}|Application\\Application.csproj|solutionrelative:application\\eventhandlers\\sendemailanalysisrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D13632E-4FDC-437F-86B9-83CC8AE3287B}|dominio\\Domain.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\dominio\\events\\analysisrequests\\analysisrequestcreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D13632E-4FDC-437F-86B9-83CC8AE3287B}|dominio\\Domain.csproj|solutionrelative:dominio\\events\\analysisrequests\\analysisrequestcreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D13632E-4FDC-437F-86B9-83CC8AE3287B}|dominio\\Domain.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\dominio\\model\\analysisrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D13632E-4FDC-437F-86B9-83CC8AE3287B}|dominio\\Domain.csproj|solutionrelative:dominio\\model\\analysisrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D13632E-4FDC-437F-86B9-83CC8AE3287B}|dominio\\Domain.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\dominio\\valueobjects\\fullname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D13632E-4FDC-437F-86B9-83CC8AE3287B}|dominio\\Domain.csproj|solutionrelative:dominio\\valueobjects\\fullname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D13632E-4FDC-437F-86B9-83CC8AE3287B}|dominio\\Domain.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\dominio\\repositories\\iconsultationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D13632E-4FDC-437F-86B9-83CC8AE3287B}|dominio\\Domain.csproj|solutionrelative:dominio\\repositories\\iconsultationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D13632E-4FDC-437F-86B9-83CC8AE3287B}|dominio\\Domain.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\dominio\\factories\\consultations\\iconsultationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D13632E-4FDC-437F-86B9-83CC8AE3287B}|dominio\\Domain.csproj|solutionrelative:dominio\\factories\\consultations\\iconsultationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D13632E-4FDC-437F-86B9-83CC8AE3287B}|dominio\\Domain.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\dominio\\factories\\consultations\\consultationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D13632E-4FDC-437F-86B9-83CC8AE3287B}|dominio\\Domain.csproj|solutionrelative:dominio\\factories\\consultations\\consultationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D13632E-4FDC-437F-86B9-83CC8AE3287B}|dominio\\Domain.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\dominio\\model\\consultation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D13632E-4FDC-437F-86B9-83CC8AE3287B}|dominio\\Domain.csproj|solutionrelative:dominio\\model\\consultation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D13632E-4FDC-437F-86B9-83CC8AE3287B}|dominio\\Domain.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\dominio\\model\\dietaryplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D13632E-4FDC-437F-86B9-83CC8AE3287B}|dominio\\Domain.csproj|solutionrelative:dominio\\model\\dietaryplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31A20502-5AB7-49D1-85FF-AFFF906C43A0}|Application\\Application.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\application\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A20502-5AB7-49D1-85FF-AFFF906C43A0}|Application\\Application.csproj|solutionrelative:application\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31A20502-5AB7-49D1-85FF-AFFF906C43A0}|Application\\Application.csproj|c:\\users\\luis indio\\desktop\\diplomadomicroservicios\\ms2024-tf-luisindio\\application\\dto\\consultationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A20502-5AB7-49D1-85FF-AFFF906C43A0}|Application\\Application.csproj|solutionrelative:application\\dto\\consultationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-03-22T06:10:37.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250322060202_CreateDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\Migrations\\20250322060202_CreateDatabase.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20250322060202_CreateDatabase.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\Migrations\\20250322060202_CreateDatabase.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20250322060202_CreateDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T06:02:02.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Infrastructure",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBYAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-22T05:54:08.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Web\\appsettings.json",
+              "RelativeDocumentMoniker": "Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Web\\appsettings.json",
+              "RelativeToolTip": "Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-22T05:44:15.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250322052833_CreateDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\Migrations\\20250322052833_CreateDatabase.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20250322052833_CreateDatabase.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\Migrations\\20250322052833_CreateDatabase.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20250322052833_CreateDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T05:28:34.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Web\\Program.cs",
+              "RelativeDocumentMoniker": "Web\\Program.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Web\\Program.cs",
+              "RelativeToolTip": "Web\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T04:07:03.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Web\\Dockerfile",
+              "RelativeDocumentMoniker": "Web\\Dockerfile",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Web\\Dockerfile",
+              "RelativeToolTip": "Web\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-22T04:02:31.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DiagnosisConfig.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\DomainModel\\Config\\DiagnosisConfig.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DomainModel\\Config\\DiagnosisConfig.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\DomainModel\\Config\\DiagnosisConfig.cs",
+              "RelativeToolTip": "Infrastructure\\DomainModel\\Config\\DiagnosisConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:52:22.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DomainDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\DomainModel\\DomainDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DomainModel\\DomainDbContext.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\DomainModel\\DomainDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\DomainModel\\DomainDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:51:41.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Extensions.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\Extensions.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Extensions.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\Extensions.cs",
+              "RelativeToolTip": "Infrastructure\\Extensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:42:24.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AnalysisRequestConfig.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\DomainModel\\Config\\AnalysisRequestConfig.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DomainModel\\Config\\AnalysisRequestConfig.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\DomainModel\\Config\\AnalysisRequestConfig.cs",
+              "RelativeToolTip": "Infrastructure\\DomainModel\\Config\\AnalysisRequestConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:52:17.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:52:31.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AnalysisRequestController.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Web\\Controllers\\AnalysisRequestController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\AnalysisRequestController.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Web\\Controllers\\AnalysisRequestController.cs",
+              "RelativeToolTip": "Web\\Controllers\\AnalysisRequestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:53:53.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ConsultationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\Repositories\\ConsultationRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ConsultationRepository.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\Repositories\\ConsultationRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\ConsultationRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:42:11.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateConsultationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Application\\UseCase\\Consultations\\Command\\CreateConsultation\\CreateConsultationHandler.cs",
+              "RelativeDocumentMoniker": "Application\\UseCase\\Consultations\\Command\\CreateConsultation\\CreateConsultationHandler.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Application\\UseCase\\Consultations\\Command\\CreateConsultation\\CreateConsultationHandler.cs",
+              "RelativeToolTip": "Application\\UseCase\\Consultations\\Command\\CreateConsultation\\CreateConsultationHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:40:31.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StoredDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\StoredModel\\StoredDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\StoredModel\\StoredDbContext.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\StoredModel\\StoredDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\StoredModel\\StoredDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:42:27.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NutritionistControllerr.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Web\\Controllers\\NutritionistControllerr.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\NutritionistControllerr.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Web\\Controllers\\NutritionistControllerr.cs",
+              "RelativeToolTip": "Web\\Controllers\\NutritionistControllerr.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:53:58.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ConsultationController.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Web\\Controllers\\ConsultationController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\ConsultationController.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Web\\Controllers\\ConsultationController.cs",
+              "RelativeToolTip": "Web\\Controllers\\ConsultationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:42:31.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GetConsultationQuery.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Application\\UseCase\\Consultations\\Queries\\GetConsultationQuery.cs",
+              "RelativeDocumentMoniker": "Application\\UseCase\\Consultations\\Queries\\GetConsultationQuery.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Application\\UseCase\\Consultations\\Queries\\GetConsultationQuery.cs",
+              "RelativeToolTip": "Application\\UseCase\\Consultations\\Queries\\GetConsultationQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:40:46.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateConsultationCommand.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Application\\UseCase\\Consultations\\Command\\CreateConsultation\\CreateConsultationCommand.cs",
+              "RelativeDocumentMoniker": "Application\\UseCase\\Consultations\\Command\\CreateConsultation\\CreateConsultationCommand.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Application\\UseCase\\Consultations\\Command\\CreateConsultation\\CreateConsultationCommand.cs",
+              "RelativeToolTip": "Application\\UseCase\\Consultations\\Command\\CreateConsultation\\CreateConsultationCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:40:30.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ConsultationModel.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\StoredModel\\Entities\\ConsultationModel.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\StoredModel\\Entities\\ConsultationModel.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\StoredModel\\Entities\\ConsultationModel.cs",
+              "RelativeToolTip": "Infrastructure\\StoredModel\\Entities\\ConsultationModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:42:17.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SendEmailAnalysisRequest.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Application\\EventHandlers\\SendEmailAnalysisRequest.cs",
+              "RelativeDocumentMoniker": "Application\\EventHandlers\\SendEmailAnalysisRequest.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Application\\EventHandlers\\SendEmailAnalysisRequest.cs",
+              "RelativeToolTip": "Application\\EventHandlers\\SendEmailAnalysisRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:40:17.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ConsultationConfig.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\DomainModel\\Config\\ConsultationConfig.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DomainModel\\Config\\ConsultationConfig.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\DomainModel\\Config\\ConsultationConfig.cs",
+              "RelativeToolTip": "Infrastructure\\DomainModel\\Config\\ConsultationConfig.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:41:54.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AnalysisRequestCreated.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\dominio\\Events\\AnalysisRequests\\AnalysisRequestCreated.cs",
+              "RelativeDocumentMoniker": "dominio\\Events\\AnalysisRequests\\AnalysisRequestCreated.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\dominio\\Events\\AnalysisRequests\\AnalysisRequestCreated.cs",
+              "RelativeToolTip": "dominio\\Events\\AnalysisRequests\\AnalysisRequestCreated.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:41:30.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AnalysisRequest.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\dominio\\Model\\AnalysisRequest.cs",
+              "RelativeDocumentMoniker": "dominio\\Model\\AnalysisRequest.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\dominio\\Model\\AnalysisRequest.cs",
+              "RelativeToolTip": "dominio\\Model\\AnalysisRequest.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBkAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:40:09.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GetConsultationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\Handler\\Consultation\\GetConsultationHandler.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Handler\\Consultation\\GetConsultationHandler.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Infrastructure\\Handler\\Consultation\\GetConsultationHandler.cs",
+              "RelativeToolTip": "Infrastructure\\Handler\\Consultation\\GetConsultationHandler.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:42:03.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FullName.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\dominio\\ValueObjects\\FullName.cs",
+              "RelativeDocumentMoniker": "dominio\\ValueObjects\\FullName.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\dominio\\ValueObjects\\FullName.cs",
+              "RelativeToolTip": "dominio\\ValueObjects\\FullName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:47:57.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IConsultationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\dominio\\Repositories\\IConsultationRepository.cs",
+              "RelativeDocumentMoniker": "dominio\\Repositories\\IConsultationRepository.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\dominio\\Repositories\\IConsultationRepository.cs",
+              "RelativeToolTip": "dominio\\Repositories\\IConsultationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:41:47.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IConsultationFactory.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\dominio\\Factories\\Consultations\\IConsultationFactory.cs",
+              "RelativeDocumentMoniker": "dominio\\Factories\\Consultations\\IConsultationFactory.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\dominio\\Factories\\Consultations\\IConsultationFactory.cs",
+              "RelativeToolTip": "dominio\\Factories\\Consultations\\IConsultationFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:47:40.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Consultation.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\dominio\\Model\\Consultation.cs",
+              "RelativeDocumentMoniker": "dominio\\Model\\Consultation.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\dominio\\Model\\Consultation.cs",
+              "RelativeToolTip": "dominio\\Model\\Consultation.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:40:53.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ConsultationFactory.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\dominio\\Factories\\Consultations\\ConsultationFactory.cs",
+              "RelativeDocumentMoniker": "dominio\\Factories\\Consultations\\ConsultationFactory.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\dominio\\Factories\\Consultations\\ConsultationFactory.cs",
+              "RelativeToolTip": "dominio\\Factories\\Consultations\\ConsultationFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:41:05.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DietaryPlan.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\dominio\\Model\\DietaryPlan.cs",
+              "RelativeDocumentMoniker": "dominio\\Model\\DietaryPlan.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\dominio\\Model\\DietaryPlan.cs",
+              "RelativeToolTip": "dominio\\Model\\DietaryPlan.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:41:41.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Extensions.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Application\\Extensions.cs",
+              "RelativeDocumentMoniker": "Application\\Extensions.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Application\\Extensions.cs",
+              "RelativeToolTip": "Application\\Extensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBgAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:40:49.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ConsultationDto.cs",
+              "DocumentMoniker": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Application\\Dto\\ConsultationDto.cs",
+              "RelativeDocumentMoniker": "Application\\Dto\\ConsultationDto.cs",
+              "ToolTip": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\Application\\Dto\\ConsultationDto.cs",
+              "RelativeToolTip": "Application\\Dto\\ConsultationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:40:42.13Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

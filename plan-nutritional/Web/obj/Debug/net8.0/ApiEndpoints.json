@@ -1,0 +1,138 @@
+[
+  {
+    "ContainingType": "Web.Controllers.AnalysisRequestController",
+    "Method": "CreateAnalysisRequest",
+    "RelativePath": "api/AnalysisRequest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Application.UseCase.AnalysisRequest.Command.CreateAnalysisRequest.CreateAnalysisRequestCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.AnalysisRequestController",
+    "Method": "GetNutritionist",
+    "RelativePath": "api/AnalysisRequest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.ConsultationController",
+    "Method": "CreateConsultation",
+    "RelativePath": "api/Consultation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Application.UseCase.Consultations.Command.CreateConsultation.CreateConsultationCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.ConsultationController",
+    "Method": "GetConsultations",
+    "RelativePath": "api/Consultation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.DiagnosisController",
+    "Method": "CreateDiagnosis",
+    "RelativePath": "api/Diagnosis",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Application.UseCase.Diagnoses.Command.CreateDiagnosis.CreateDiagnosisCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.DiagnosisController",
+    "Method": "GetDiagnosis",
+    "RelativePath": "api/Diagnosis",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.NutritionistControllerr",
+    "Method": "CreateNutritionist",
+    "RelativePath": "api/NutritionistControllerr",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Application.UseCase.Nutritionists.Command.CreateNutritionist.CreateNutritionistCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.NutritionistControllerr",
+    "Method": "GetNutritionist",
+    "RelativePath": "api/NutritionistControllerr",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.NutritionistControllerr",
+    "Method": "UpdateNutritionist",
+    "RelativePath": "api/NutritionistControllerr",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Application.UseCase.Nutritionists.Command.EditNutritionist.UpdateNutritionistCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.NutritionistControllerr",
+    "Method": "DeleteNutritionist",
+    "RelativePath": "api/NutritionistControllerr/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

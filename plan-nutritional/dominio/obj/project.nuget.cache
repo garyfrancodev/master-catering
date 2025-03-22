@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "/OB0yXAasz8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\LUIS INDIO\\Desktop\\DiplomadoMicroservicios\\ms2024-tf-LuisIndio\\dominio\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LUIS INDIO\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\LUIS INDIO\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\LUIS INDIO\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
