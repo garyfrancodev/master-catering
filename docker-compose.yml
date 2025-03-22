@@ -1,0 +1,5 @@
+name: master-catering
+
+include:
+  - path: ./nur-ddd-sales-app/docker-compose.yml
+  - path: ./patient-management/docker-compose.yml
